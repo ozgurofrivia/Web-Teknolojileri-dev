@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="urun.css" />
+  <title>Scarface</title>
+</head>
+
+<body>
+  <header>
+    <input type="checkbox" name="" id="chk1">
+    <div class="logo">
+      <img src="./assets/images/VISIO.png" alt="">
+    </div>
+    <div class="bi bi-clock" id="saat"></div>
+    <div class="search-box">
+      <form>
+        <input type="text" name="search" id="srch" placeholder="Search">
+        <button type="submit"><i class="bi bi-search"></i></button>
+      </form>
+    </div>
+    <ul>
+      <li><a href="anasayfa.html">Anasayfa</a></li>
+      <li><a href="filmler.html">Filmler</a></li>
+      <li><a href="urun.html">Yeni Gelen</a></li>
+      <li><a href="iletişim.html">İletişim</a></li>
+      <div style="position: relative;">
+        <li>
+          <i class="bi bi-cart" onclick="toggleSepet();"></i>
+          <span style="margin-left: 20p;" class="sepet_urun_sayisi"></span>
+        </li>
+      </div>
+    </ul>
+    <div class="menu">
+      <label for="chk1">
+        <i class="bi bi-list"></i>
+      </label>
+    </div>
+  </header>
+
+  <div class="baslik">
+    <div class="film_info">
+      <ul>
+        <li>
+          <h2 class="title">
+            Scarface
+          </h2>
+        </li>
+        <li class="sure">
+          1983 18+ 2h 50m
+        </li>
+      </ul>
+    </div>
+    <div class="film_raiting">
+      <ul>
+        <li>
+          <span>IMDB</span>
+          <i class="bi bi-star-fill">8.3/10</i>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <video style="width: 100%;" src="./assets/images/filmler/scarface/Scarface (1983) Blu-Ray Release Trailer HD.mp4" controls></video>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="./assets/images/filmler/scarface/scarface_scene5.jpg" style="width:100%;
+       height: 720px">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="./assets/images/filmler/scarface/scarface_scene1.jpg" style="width:100% ;
+      height: 720px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4/ 6</div>
+      <img src="./assets/images/filmler/scarface/scarface_scene3.jpg" style="width:100% ;
+      height: 720px">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="./assets/images/filmler/scarface/scarface_scene4.jpg" style="width:100%;
+      height: 720px">
+    </div>
+
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="./assets/images/filmler/scarface/tape.jpg" style="width:100% ;
+      height: 720px">
+    </div>
+
+   
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://i.ytimg.com/vi/cv276Wg3e7I/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIR5znuhNM6_Ud59OlphK8vBr6sA" style="width:100%" onclick="currentSlide(1)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./assets/images/filmler/scarface/scarface_scene5.jpg" style="width:100%"
+          onclick="currentSlide(2)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./assets/images/filmler/scarface/scarface_scene1.jpg" style="width:100%"
+          onclick="currentSlide(3)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./assets/images/filmler/scarface/scarface_scene3.jpg" style="width:100%"
+          onclick="currentSlide(4)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./assets/images/filmler/scarface/scarface_scene4.jpg" style="width:100%"
+          onclick="currentSlide(5)" alt="">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./assets/images/filmler/scarface/tape.jpg" style="width:100%; height: 89.46px;"
+          onclick="currentSlide(6)" alt="">
+      </div>
+
+
+    </div>
+  </div>
+
+  <div>
+    <div class="tur">
+      <span>Crime</span> <span>Dram</span>
+    </div>
+    <div class="alt">
+      <div class="ozet">
+        <div>
+          <h3>Storyline</h3>
+          <p>Tony Montana manages to leave Cuba during the Mariel exodus of 1980. He finds himself in a Florida refugee camp but his friend Manny has a way out for them: undertake a contract killing and arrangements will be made to get a green card. He's soon working for drug dealer Frank Lopez and shows his mettle when a deal with Colombian drug dealers goes bad. He also brings a new level of violence to Miami. Tony is protective of his younger sister but his mother knows what he does for a living and disowns him. Tony is impatient and wants it all however, including Frank's empire and his mistress Elvira Hancock. Once at the top however, Tony's outrageous actions make him a target and everything comes crumbling down.</p>
+        </div>
+        <ul>
+          <li>Director <span>Brian De Palma</span></li>
+          <li>Writers <span>Oliver Stobe Howards Hawks Ben Hecht</span></li>
+          <li>Stars <span>Al Pacino Michelle Pfeiffer Steven Bauer</span></li>
+        </ul>
+      </div>
+      <div class="sat">
+          <button class="satinalbtn">Satın Al</button>
+          <span>1453 Kez Satın Alındı</span>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer class="footer">
+    <div class="container2">
+      <div class="row2">
+        <div class="footer-col">
+          <h4>şirket</h4>
+          <ul>
+            <li><a href="./hakkımızda.html">hakkımızda</a></li>
+            <li><a href="#">hizmetlerimiz</a></li>
+            <li><a href="#">gizlilik koşulları</a></li>
+
+            <li><a href="./iletişim.html">İletişim</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Yardım</h4>
+          <ul>
+            <li><a href="#">SSS</a></li>
+            <li><a href="#">garanti koşulları</a></li>
+            <li><a href="#">iade</a></li>
+            <li><a href="#">sipariş durumları</a></li>
+            <li><a href="#">ödeme seçenekleri</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Bizi Takip Et</h4>
+          <div class="social-links">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+[
+  {
+    "id": 1,
+    "name": "Fight Club",
+    "actors": "Brad Pitt, Edward Norton, Helena Bohan Carter",
+    "price": 499.99,
+    "oldPrice": 999.99,
+    "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+    "starRate": 5,
+    "reviewCount": 183,
+    "stock": 22,
+    "imgSource": "./assets/images/filmler/fightClub.jpg",
+    "type": "Aksiyon"
+  },
+  {
+    "id": 2,
+    "name": "Godfather",
+    "actors": "Marlon Brando, Al Pacino, Talie Shire",
+    "price": 599.99,
+    "oldPrice": 1199.99,
+    "description": "Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.",
+    "starRate": 5,
+    "reviewCount": 270,
+    "stock": 7,
+    "imgSource": "./assets/images/filmler/godfather.png",
+    "type": "Suç"
+  },
+  {
+    "id": 3,
+    "name": "Taxi Driver",
+    "actors": "Rober De Niro, Jodie Foster, Cybill    Shepherd",
+    "price": 599.99,
+    "oldPrice": 1199.99,
+    "description": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action.",
+    "starRate": 4.2,
+    "reviewCount": 130,
+    "stock": 3,
+    "imgSource": "./assets/images/filmler/taxiDriver.jpg",
+    "type": "FINANCE"
+  },
+  {
+    "id": 4,
+    "name": "GoodFellas",
+    "actors": "Robert De Deniro, Ray Liotta, Joe Pesci",
+    "price": 999.99,
+    "oldPrice": 1999.99,
+    "description": "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.",
+    "starRate": 4.2,
+    "reviewCount": 560,
+    "stock": 6,
+    "imgSource": "./assets/images/filmler/goodfellas.jpg",
+    "type": "NOVEL"
+  },
+  {
+    "id": 5,
+    "name": "Raging Bull",
+    "actors": "Rober De Niro, Joe Pesci",
+    "price": 999.99,
+    "oldPrice": 1999.99,
+    "description": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
+    "starRate": 3.7,
+    "reviewCount": 410,
+    "stock": 450,
+    "imgSource": "./assets/images/filmler/ragingBull.jpg",
+    "type": "CHILDREN"
+  },
+  {
+    "id": 6,
+    "name": "Papillon",
+    "actors": "Steve McQueen, Dustin Hoffman",
+    "price": 599.99,
+    "oldPrice": 1199.99,
+    "description": "A French convict in the 1930s befriends a fellow criminal as the two of them begin serving their sentence in the South American penal colony on Devil's Island, which inspires the man to plot his escape.",
+    "starRate": 4.3,
+    "reviewCount": 145,
+    "stock": 321,
+    "imgSource": "./assets/images/filmler/papillon.jpg",
+    "type": "SELFIMPROVEMENT"
+  },
+  {
+    "id": 7,
+    "name": "Scarface",
+    "actors": "Al Pacino, Michelle Pfeiffer",
+    "price": 999.99,
+    "oldPrice": 1999.99,
+    "description": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
+    "starRate": 4.3,
+    "reviewCount": 173,
+    "stock": 73,
+    "imgSource": "./assets/images/filmler/scarface/scarface.jpg",
+    "type": "NOVEL"
+  },
+
+  {
+    "id": 8,
+    "name": "Pulp Fiction",
+    "actors": "Uma Thurman, Samuel L. Jackson, John Travolta, Bruce Wills",
+    "price": 499.99,
+    "oldPrice": 1199.99,
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "starRate": 4.3,
+    "reviewCount": 189,
+    "stock": 89,
+    "imgSource": "./assets/images/filmler/pulpFiction.jpg"
+    
+  },
+  {
+    "id": 9,
+    "name": "The Good, The Bad, The Ugly",
+    "actors": "Clint Eastwod, Lee Van Cleef, Eli Wallach",
+    "price": 999.99,
+    "oldPrice": 1999.99,
+    "description": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
+    "starRate": 4.3,
+    "reviewCount": 78,
+    "stock": 80,
+    "imgSource": "./assets/images/filmler/theGoodtheBadtheUgly.jpg"
+   
+  },
+  {
+    "id": 10,
+    "name": "The Usual Suspects",
+    "actors": "Kevin Spacey, Benico Del Toro, Gabriel Byrne",
+    "price": 399.99,
+    "oldPrice": 799.99,
+    "description": "The sole survivor of a pier shoot-out tells the story of how a notorious criminal influenced the events that began with five criminals meeting in a seemingly random police lineup.",
+    "starRate": 4.5,
+    "reviewCount": 250,
+    "stock": 14,
+    "imgSource": "./assets/images/filmler/theUsualSuspects.jpg"
+   
+  },
+  {
+    "id": 11,
+    "name": "Kill Bill",
+    "actors": "Uma Thurman, Lucy Liu, David Carradine",
+    "price": 399.99,
+    "oldPrice": 799.99,
+    "description": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+    "starRate": 4.2,
+    "reviewCount": 480,
+    "stock": 490,
+    "imgSource": "./assets/images/filmler/killBill.jpg"
+  
+  },
+  {
+    "id": 12,
+    "name": "Back To The Future",
+    "actors": "Michale J. Fox, Cristopher Lloyd",
+    "price": 399.99,
+    "oldPrice": 799.99,
+    "description": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+    "starRate": 4.4,
+    "reviewCount": 930,
+    "stock": 143,
+    "imgSource": "./assets/images/filmler/backToTheFuture.jpg"
+   
+  }
+]

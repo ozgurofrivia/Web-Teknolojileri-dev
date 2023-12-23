@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visio</title>
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="filmlerStyle.css" />
+</head>
+
+<body style="background-color: black;">
+  <header>
+    <input type="checkbox" name="" id="chk1">
+    <div class="logo">
+      <img src="./assets/images/VISIO.png" alt="">
+    </div>
+    <div class="bi bi-clock" id="saat"></div>
+    <div class="search-box">
+      <form>
+        <input type="text" name="search" id="srch" placeholder="Search">
+        <button type="submit"><i class="bi bi-search"></i></button>
+      </form>
+    </div>
+    <ul>
+      <li><a href="anasayfa.html">Anasayfa</a></li>
+      <li><a href="filmler.html">Filmler</a></li>
+      <li><a href="urun.html">Yeni Gelen</a></li>
+      <li><a href="iletişim.html">İletişim</a></li>
+      <div style="position: relative;">
+        <li>
+          <i class="bi bi-cart" onclick="toggleSepet();"></i>
+          <span style="margin-left: 20p;" class="sepet_urun_sayisi"></span>
+        </li>
+      </div>
+    </ul>
+    <div class="menu">
+      <label for="chk1">
+        <i class="bi bi-list"></i>
+      </label>
+    </div>
+  </header>
+
+  <section class="filtre" id="filtre">
+    <div class="a">
+      <ul class="tür">
+        <li>Aksiyon</li>
+        <li>Animasyon</li>
+        <li>Bilim Kurgu</li>
+        <li>Fantastik</li>
+      </ul>
+      <ul class="tür">
+        <li>Gizem</li>
+        <li>Gerilim</li>
+        <li>Korku</li>
+        <li>Komedi</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="magaza my-5">
+    <div class="row film_list">
+     
+     
+
+    </div>
+  </section>
+
+  <div class="sepet">
+    <div class="sepet_urunler">
+      <i class="bi bi-x" onclick="toggleSepet()"></i>
+      <h2 class="sepet_baslik">Sepetiniz</h2>
+      <ul class="urun_liste">
+        <li style="font-size: 15px; color:white;">
+          Sepetiniz boş, doldurmya başlayın.
+        </li>
+
+      </ul>
+      <div class="sepet_tutar">
+        <span style=" font-weight: bold; color: white; margin-top: 15px; font-size: 20px;" class="toplam_tutar"></span>
+        <button class="sepet_buton">Siparişi Tamamla</button>
+      </div>
+    </div>
+  </div>
+
+  <button onclick="topFunction()" id="scrollToTopBtn" title="Go to top">Top</button>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row2">
+        <div class="footer-col">
+          <h4>şirket</h4>
+          <ul>
+            <li><a href="./hakkımızda.html">hakkımızda</a></li>
+            <li><a href="#">hizmetlerimiz</a></li>
+            <li><a href="#">gizlilik koşulları</a></li>
+            
+            <li><a href="./iletişim.html">İletişim</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Yardım</h4>
+          <ul>
+            <li><a href="#">SSS</a></li>
+            <li><a href="#">garanti koşulları</a></li>
+            <li><a href="#">iade</a></li>
+            <li><a href="#">sipariş durumları</a></li>
+            <li><a href="#">ödeme seçenekleri</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Bizi Takip Et</h4>
+          <div class="social-links">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+  <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
